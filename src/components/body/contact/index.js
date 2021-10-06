@@ -5,23 +5,26 @@ import Separator from "../../common/separator/index";
 function Contact() {
   function encode(data) {
     return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&")
+      .map(
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+      )
+      .join("&");
   }
 
-const handleSubmit = (event) => {
-  event.preventDefault()
-  fetch("/", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: encode({
-      "form-name": event.target.getAttribute("name"),
-      ...name
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": event.target.getAttribute("name"),
+        ...name,
+      }),
     })
-  }).then(() => navigate("/thank-you/")).catch(error => alert(error))
-}
+      .then(() => navigate("/thank-you/"))
+      .catch((error) => alert(error));
+  };
   return (
-    
     <div className="contact">
       <Separator />
       <label className="section-title">Contact</label>
@@ -36,15 +39,20 @@ const handleSubmit = (event) => {
             Download CV
           </a>
         </div>
-        
       </div>
-      <form data-netlify="true" name="pizzaOrder" method="post" onSubmit={handleSubmit}>
-    <input type="hidden" name="form-name" value="pizzaOrder" />
-    <label>What order did the pizza give to the pineapple?
-      <input name="order" type="text" onChange={handleChange} />
-    </label>
-    <input type="submit"/>
-  </form>
+      <form
+        data-netlify="true"
+        name="pizzaOrder"
+        method="post"
+        onSubmit={handleSubmit}
+      >
+        <input type="hidden" name="form-name" value="pizzaOrder" />
+        <label>
+          What order did the pizza give to the pineapple?
+          <input name="order" type="text" onChange={handleChange} />
+        </label>
+        <input type="submit" />
+      </form>
     </div>
   );
 }
