@@ -7,9 +7,14 @@ function About() {
       <div className="about-top">
         <div className="about-info">
           Hello There 👋, I am <br />
-          <span className="info-name">Ahmad Muji</span>.<br /> I love
+          <span className="info-name">Ahmad Muji</span>.<br /> 
+          I love
           experimenting with the web.
+          
+          <SocialContact />
         </div>
+        
+        
         <div className="about-photo">
           <img
             src={require("../../../assets/image/ahmad.png").default}
@@ -17,7 +22,7 @@ function About() {
           />
         </div>
       </div>
-      <SocialContact />
+      
     </div>
   );
 }

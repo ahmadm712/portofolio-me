@@ -14,5 +14,6 @@ export const SocialData = [
     icon: require("../assets/icons/linkedin.png").default,
     link: "https://www.linkedin.com/in/ahmad-muji-burohman",
   },
+
  
 ];
