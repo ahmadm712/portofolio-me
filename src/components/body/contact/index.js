@@ -3,7 +3,25 @@ import "./contact.css";
 import SocialContactMobile from "../../common/social-contact-mobile/index";
 import Separator from "../../common/separator/index";
 function Contact() {
+  function encode(data) {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&")
+  }
+
+const handleSubmit = (event) => {
+  event.preventDefault()
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: encode({
+      "form-name": event.target.getAttribute("name"),
+      ...name
+    })
+  }).then(() => navigate("/thank-you/")).catch(error => alert(error))
+}
   return (
+    
     <div className="contact">
       <Separator />
       <label className="section-title">Contact</label>
@@ -20,27 +38,13 @@ function Contact() {
         </div>
         
       </div>
-      <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <label>
-              Your Name: <input type="text" name="name" />
-            </label>
-          </p>
-          <p>
-            <label>
-              Your Email: <input type="email" name="email" />
-            </label>
-          </p>
-          
-          <p>
-            <label>
-              Message: <textarea name="message"></textarea>
-            </label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
+      <form data-netlify="true" name="pizzaOrder" method="post" onSubmit={handleSubmit}>
+    <input type="hidden" name="form-name" value="pizzaOrder" />
+    <label>What order did the pizza give to the pineapple?
+      <input name="order" type="text" onChange={handleChange} />
+    </label>
+    <input type="submit"/>
+  </form>
     </div>
   );
 }
