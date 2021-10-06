@@ -5,10 +5,22 @@ export const SkillsData = [
       {
         name: "ReactJS",
         icon: <i class="devicon-react-original colored"></i>,
+        level : "Basic"
       },
       {
         name: "Javascript",
         icon: <i class="devicon-javascript-plain colored"></i>,
+        level : "Basic"
+      },
+      {
+        name: "HTML",
+        icon: <i class="devicon-html5-plain colored"></i>,
+        level : "Basic"
+      },
+      {
+        name: "CSS",
+        icon: <i class="devicon-css3-plain colored"></i>,
+        level : "Basic"
       },
       
     ],
@@ -19,6 +31,7 @@ export const SkillsData = [
       {
         name: "Laravel",
         icon: <i class="devicon-laravel-plain colored"></i>,
+        level : "Basic"
       },
       
     ],
@@ -29,6 +42,7 @@ export const SkillsData = [
       {
         name: "Flutter",
         icon: <i class="devicon-flutter-plain colored"></i>,
+        level : "Basic"
       },
     ],
   },

@@ -16,7 +16,10 @@ function Skills() {
               <label className="skills-section-title">{item.type}</label>
               <div className="skills-list">
                 {item.list.map((skill) => {
-                  return <SkillCard skill={skill} />;
+                  return <SkillCard skill={skill} 
+
+                    
+                  />;
                 })}
               </div>
             </div>

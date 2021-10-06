@@ -23,8 +23,8 @@
 .logo {
   display: flex;
 
-  font-size: 36px;
-  color: blueviolet;
+  font-size: 32px;
+  color: #7765e3;
   font-weight: 800;
 }
 @media only screen and (max-width: 720px) {

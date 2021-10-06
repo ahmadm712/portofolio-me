@@ -1,11 +1,11 @@
 export const WorkData = [
   {
-    company: "Company 1",
-    designation: "Software Engineer",
-    dateJoining: "02-02-2000",
-    dateEnd: "Present",
+    company: "Skilvul",
+    designation: "Study Independent",
+    dateJoining: "28-Aug-2021",
+    dateEnd: "01-Jan-2022",
     companyLogo:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png",
+      "https://skilvul.com/static/skilvul.svg",
     work: "Worken on Unit testing and creating the largest database efficiently. With over 100 people under me, made it work really well.",
   },
   {

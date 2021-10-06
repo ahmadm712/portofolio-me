@@ -21,19 +21,23 @@
 }
 
 .download {
-  background-color: aquamarine;
+  background-color: #3581b8;
   padding: 8px 16px;
-  font-size: 24px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  border-radius: 4px;
+  /* align-items: center; */
+  border-radius: 12px;
+  
 }
 .download a {
   text-decoration: none;
-  color: black;
+  
+  color: whitesmoke;
 }
-.download-icon {
+.download i {
+  margin-right: 8px;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 720px) {

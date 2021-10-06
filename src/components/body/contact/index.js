@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-import SocialContact from "../../common/social-contact/index";
+import SocialContactMobile from "../../common/social-contact-mobile/index";
 import Separator from "../../common/separator/index";
 function Contact() {
   return (
@@ -10,12 +10,12 @@ function Contact() {
       <div className="contact-container">
         <div className="contact-left">
           <p>Want to get in touch? Contact me on any of the platform</p>
-          <SocialContact />
+          <SocialContactMobile />
         </div>
         <div className="download">
           <a download href={require("../../../assets/CV Ahmad.pdf").default}>
             <i class="fi-rr-cloud-download download-icon" />
-            Download Resume
+            Download CV
           </a>
         </div>
       </div>

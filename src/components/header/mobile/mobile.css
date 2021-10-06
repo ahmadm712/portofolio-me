@@ -23,17 +23,21 @@
   width: 100%;
   padding-top: 24px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+
   height: 100%;
 }
 
 .mobile-option {
-  font-size: 24px;
-  margin: 12px 0px;
+  font-size: 23px;
+  margin: 16px 0px 5px;
   display: flex;
 }
 .mobile-option a {
   text-decoration: none;
   color: black;
   display: flex;
+}
+.mobile-option i{
+  margin-right: 8px;
 }
