@@ -15,5 +15,11 @@ export const SocialData = [
     link: "https://www.linkedin.com/in/ahmad-muji-burohman",
   },
 
+  {
+    platform: "Email",
+    icon: require("../assets/icons/gmail.svg").default,
+    link: "mailto:ahmadmuji240701@gmail.com",
+  },
+
  
 ];

@@ -8,10 +8,11 @@
   align-items: center;
 }
 .picture {
-  height: 350px;
+  height: 300px;
 }
 .about-info {
-  font-size: 24px;
+  margin-top: 16px;
+  font-size: 18px;
 }
 .info-name {
   font-size: 32px;
@@ -19,7 +20,7 @@
 }
 @media only screen and (max-width: 720px) {
   .about-top {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
@@ -27,7 +28,7 @@
     height: 280px;
   }
   .about-info {
-    font-size: 20px;
+    font-size: 17px;
   }
   .info-name {
     font-size: 26px;

@@ -1,20 +1,19 @@
 export const WorkData = [
   {
     company: "Skilvul",
-    designation: "Study Independent",
+    designation: "Study Independent (Kampus Merdeka)",
     dateJoining: "28-Aug-2021",
     dateEnd: "01-Jan-2022",
-    companyLogo:
-      "https://skilvul.com/static/skilvul.svg",
-    work: "Worken on Unit testing and creating the largest database efficiently. With over 100 people under me, made it work really well.",
+    companyLogo: "https://skilvul.com/static/skilvul.svg",
+    work: "Program inkubasi digital 5 bulan di mana tim siswa akan diberi tantangan untuk membantu mitra tantangan untuk memecahkan masalah sosial dan lingkungan di Indonesia dan kawasan ASEAN. Siswa akan dilengkapi dengan keterampilan Pemrograman siap kerja dan keterampilan pengembangan produk untuk berinovasi dan membangun solusi digital. ",
   },
+
   {
-    company: "Company 2",
-    designation: "Software Engineer",
-    dateJoining: "02-02-2000",
-    dateEnd: "Present",
-    companyLogo:
-      "https://iconape.com/wp-content/png_logo_vector/facebook-f-logo-2019.png",
-    work: "Worken on Unit testing and creating the largest database efficiently. With over 100 people under me, made it work really well.",
+    company: "Sagita Computer",
+    designation: "PKL",
+    dateJoining: "01-Jan-2018",
+    dateEnd: "30-March-2018",
+    companyLogo: "https://i.ibb.co/4sPp8R7/sagita.jpg",
+    work: "Membantu pengecekan Perangkat Komputer  mulai dari Monitor, CPU,hingga Printer Yang bermasalah, Membantu Menyelesaikan Pekerjaan Teknisi.",
   },
 ];

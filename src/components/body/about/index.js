@@ -7,14 +7,16 @@ function About() {
       <div className="about-top">
         <div className="about-info">
           Hello There 👋, I am <br />
-          <span className="info-name">Ahmad Muji</span>.<br /> 
-          I love
-          experimenting with the web.
-          
+          <span className="info-name">Ahmad Muji</span>.<br />
+          Commonly called Ahmad, I am a student of Semester 5
+          Informatics Engineering with a Concentration in Creative Information
+          Development, my hobby is sports & playing games,
+          Has Good enough
+          Programming Skills and Interest in Web Development and Mobile
+          Development
           <SocialContact />
         </div>
-        
-        
+
         <div className="about-photo">
           <img
             src={require("../../../assets/image/ahmad.png").default}
@@ -22,7 +24,6 @@ function About() {
           />
         </div>
       </div>
-      
     </div>
   );
 }

@@ -23,6 +23,7 @@ function ProjectCard({ project }) {
           )}
         </div>
         <p>{project.about}</p>
+        <p>{project.demoAkun}</p>
         <div className="project-tags">
           {project.tags.map((tag) => {
             return <label className="tag">{tag}</label>;
