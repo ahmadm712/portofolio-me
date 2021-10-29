@@ -22,5 +22,27 @@ export const ProjectData = [
     github: "https://github.com/ahmadm712/Sistem-informasi-penjualan",
     image:
       "https://i.ibb.co/DpysTgZ/ss-pro.png",
+  },  {
+
+    id: 2,
+
+    title: "COVINDO",
+
+    about:
+
+      "Covindo",
+
+    demoAkun: "",
+
+    tags: ["Restful API", "MySQL", "HTML", "CSS", "Javascript", "Bootstrap", "Netlify"],
+
+    demo: "https://covindo10.netlify.app/",
+
+    github: "https://github.com/ahmadm712/Sistem-informasi-penjualan",
+
+    image:
+
+      "https://i.ibb.co/DpysTgZ/ss-pro.png",
+
   },
 ];
