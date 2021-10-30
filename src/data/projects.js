@@ -15,7 +15,7 @@ export const ProjectData = [
     id: 1,
     title: "Sistem Informasi Penjualan",
     about:
-      "Sistem Informasi Penjualan Berbasis Web untuk mempermudah dalam pengolahan Data produk, Data pemasukan, Keuntungan, Pengeluaran dan Transaksi",
+      "Sistem Informasi Penjualan Berbasis Web untuk mempermudah dalam pengolahan Data produk, Data pemasukan, Keuntungan, Pengeluaran dan Transaksi. Web ini Dibuat untuk menyelesaikan Tugas Akhir Mata Kuliah Pemograman web 1",
     demoAkun: "username : ahmad , password : ahmad",
     tags: ["PHP", "MySQL", "HTML", "CSS", "Javascript", "Bootstrap", "Heroku"],
     demo: "https://sipenjualan.herokuapp.com",
@@ -27,7 +27,7 @@ export const ProjectData = [
     title: "COVINDO",
     about:
       "Covindo adalah sebuah platform layanan penyedia informasi bagi masyarakat Indonesia untuk mempersiapkan diri pada situasi darurat selama pandemi Covid-19. Dengan informasi faktual, serta kemudahan akses darimanapun menjadikan sebuah platform yang dapat diandalkan masyarakat Indonesia.",
-    demoAkun: "Web ini Dibuat untuk menyelesaikan Tugas Kelompok Study Independen Bersama Kelompok 10",
+    demoAkun: "Web ini Dibuat untuk menyelesaikan Tugas Kelompok Stage 1 WEB DEVELOPMENT, Study Independen Bersama Kelompok 10",
     tags: ["Restful API", "HTML", "CSS", "Javascript", "Bootstrap", "Netlify"],
 
     demo: "https://covindo10.netlify.app/",

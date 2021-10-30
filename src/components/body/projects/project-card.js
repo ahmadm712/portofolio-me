@@ -1,5 +1,7 @@
 import React from "react";
 import "./project-card.css";
+import { Link } from "react-router-dom";
+
 function ProjectCard({ project }) {
   return (
     <div className="project-card">
@@ -30,7 +32,7 @@ function ProjectCard({ project }) {
           })}
         </div>
       </div>
-      
+
       <img src={project.image} className="project-photo" />
     </div>
   );
