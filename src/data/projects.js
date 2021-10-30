@@ -20,29 +20,20 @@ export const ProjectData = [
     tags: ["PHP", "MySQL", "HTML", "CSS", "Javascript", "Bootstrap", "Heroku"],
     demo: "https://sipenjualan.herokuapp.com",
     github: "https://github.com/ahmadm712/Sistem-informasi-penjualan",
-    image:
-      "https://i.ibb.co/DpysTgZ/ss-pro.png",
-  },  {
-
+    image: "https://i.ibb.co/DpysTgZ/ss-pro.png",
+  },
+  {
     id: 2,
-
     title: "COVINDO",
-
     about:
-
-      "Covindo",
-
-    demoAkun: "",
-
-    tags: ["Restful API", "MySQL", "HTML", "CSS", "Javascript", "Bootstrap", "Netlify"],
+      "Covindo adalah sebuah platform layanan penyedia informasi bagi masyarakat Indonesia untuk mempersiapkan diri pada situasi darurat selama pandemi Covid-19. Dengan informasi faktual, serta kemudahan akses darimanapun menjadikan sebuah platform yang dapat diandalkan masyarakat Indonesia.",
+    demoAkun: "Web ini Dibuat untuk menyelesaikan Tugas Kelompok Study Independen Bersama Kelompok 10",
+    tags: ["Restful API", "HTML", "CSS", "Javascript", "Bootstrap", "Netlify"],
 
     demo: "https://covindo10.netlify.app/",
 
-    github: "https://github.com/ahmadm712/Sistem-informasi-penjualan",
+    github: "https://github.com/Muhammad-Ikhwan-Fathulloh/Skilvul-COVINDO-Kelompok-10",
 
-    image:
-
-      "https://i.ibb.co/DpysTgZ/ss-pro.png",
-
+    image: "https://i.ibb.co/c186MCy/COVINDO-SS.png",
   },
 ];
