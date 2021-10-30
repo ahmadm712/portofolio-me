@@ -30,7 +30,9 @@ function ProjectCard({ project }) {
           })}
         </div>
       </div>
-      <img src={project.image} className="project-photo" />
+      <a href={project.demo}>
+        <img src={project.image} className="project-photo" />
+      </a>
     </div>
   );
 }
