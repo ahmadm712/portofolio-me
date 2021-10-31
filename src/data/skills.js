@@ -13,6 +13,12 @@ export const SkillsData = [
         level: "Basic",
       },
       {
+        name: "TailwindCSS",
+        icon: <i class="devicon-tailwindcss-plain colored"></i>,
+        level: "Basic",
+      },
+
+      {
         name: "Javascript",
         icon: <i class="devicon-javascript-plain colored"></i>,
         level: "Basic",
@@ -37,16 +43,16 @@ export const SkillsData = [
         icon: <i class="devicon-laravel-plain colored"></i>,
         level: "Basic",
       },
-      {
-        name: "Express",
-        icon: <i class="devicon-express-original colored"></i>,
-        level: "Basic",
-      },
-      {
-        name: "Node Js",
-        icon: <i class="devicon-nodejs-plain colored"></i>,
-        level: "Basic",
-      },
+      // {
+      //   name: "Express",
+      //   icon: <i class="devicon-express-original colored"></i>,
+      //   level: "Basic",
+      // },
+      // {
+      //   name: "Node Js",
+      //   icon: <i class="devicon-nodejs-plain colored"></i>,
+      //   level: "Basic",
+      // },
     ],
   },
   {

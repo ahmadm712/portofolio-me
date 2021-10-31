@@ -7,11 +7,11 @@ function About() {
       <div className="about-top">
         <div className="about-info">
           Hello There 👋, I am <br />
-          <span className="info-name">Ahmad Muji</span>.<br />
-          Commonly called Ahmad, I am a student of Semester 5
+          <span className="info-name">Ahmad Muji</span>.
+          <br />
+          Commonly called Ahmad, I am a 5th semester collage student of
           Informatics Engineering with a Concentration in Creative Information
-          Development, my hobby is sports & playing games,
-          Has Good enough
+          Development, my hobby is sports & playing games, Has Good enough
           Programming Skills and Interest in Web Development and Mobile
           Development
           <SocialContact />

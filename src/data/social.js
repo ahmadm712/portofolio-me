@@ -17,7 +17,7 @@ export const SocialData = [
 
   {
     platform: "Email",
-    icon: require("../assets/icons/gmail.svg").default,
+    icon: require("../assets/icons/gmail.png").default,
     link: "mailto:ahmadmuji240701@gmail.com",
   },
 
