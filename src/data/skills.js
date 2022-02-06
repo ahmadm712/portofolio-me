@@ -5,12 +5,12 @@ export const SkillsData = [
       {
         name: "ReactJS",
         icon: <i class="devicon-react-original colored"></i>,
-        level: "Basic",
+        level: "Intermediate",
       },
       {
         name: "Bootstrap",
         icon: <i class="devicon-bootstrap-plain colored"></i>,
-        level: "Basic",
+        level: "Basic to Intermediate",
       },
       {
         name: "TailwindCSS",
@@ -21,17 +21,17 @@ export const SkillsData = [
       {
         name: "Javascript",
         icon: <i class="devicon-javascript-plain colored"></i>,
-        level: "Basic",
+        level: "Intermediate",
       },
       {
         name: "HTML",
         icon: <i class="devicon-html5-plain colored"></i>,
-        level: "Basic",
+        level: "Intermediate",
       },
       {
         name: "CSS",
         icon: <i class="devicon-css3-plain colored"></i>,
-        level: "Basic",
+        level: "Basic to Intermediate",
       },
     ],
   },
@@ -43,16 +43,16 @@ export const SkillsData = [
         icon: <i class="devicon-laravel-plain colored"></i>,
         level: "Basic",
       },
-      // {
-      //   name: "Express",
-      //   icon: <i class="devicon-express-original colored"></i>,
-      //   level: "Basic",
-      // },
-      // {
-      //   name: "Node Js",
-      //   icon: <i class="devicon-nodejs-plain colored"></i>,
-      //   level: "Basic",
-      // },
+      {
+        name: "Express",
+        icon: <i class="devicon-express-original colored"></i>,
+        level: "Basic",
+      },
+      {
+        name: "Node Js",
+        icon: <i class="devicon-nodejs-plain colored"></i>,
+        level: "Basic",
+      },
     ],
   },
   {
@@ -61,12 +61,12 @@ export const SkillsData = [
       {
         name: "Flutter",
         icon: <i class="devicon-flutter-plain colored"></i>,
-        level: "Basic",
+        level: "Intermediate",
       },
       {
         name: "React Native",
         icon: <i class="devicon-react-original colored"></i>,
-        level: "Basic",
+        level: "Basic to Intermediate",
       },
     ],
   },
@@ -76,7 +76,7 @@ export const SkillsData = [
       {
         name: "Git",
         icon: <i class="devicon-git-plain colored"></i>,
-        level: "Basic",
+        level: "Intermediate",
       },
       {
         name: "Trello",
@@ -90,6 +90,11 @@ export const SkillsData = [
     list: [
       {
         name: "MySql",
+        icon: <i class="devicon-mysql-plain-wordmark"></i>,
+        level: "Basic",
+      },
+      {
+        name: "MongoDB",
         icon: <i class="devicon-mysql-plain-wordmark"></i>,
         level: "Basic",
       },
