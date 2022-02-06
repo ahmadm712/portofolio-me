@@ -95,7 +95,7 @@ export const SkillsData = [
       },
       {
         name: "MongoDB",
-        icon: <i class="devicon-mysql-plain-wordmark"></i>,
+        icon: <i class="devicon-mongodb-plain-wordmark colored"></i>,
         level: "Basic",
       },
     ],
