@@ -3,8 +3,8 @@ export const WorkData = [
     company: "PT Cipta lestari Esatama",
     designation: "Junior Software Engineer (Magang)",
     dateJoining: "09-Nov-2021",
-    dateEnd: "09-Feb-2022",
-    companyLogo: "https://media-exp1.licdn.com/dms/image/C560BAQHw860qzyk0VQ/company-logo_200_200/0/1543518524710?e=1646870400&v=beta&t=cvxjr5yq2XNVs9kiegg_5pQFqoCDVKpvyHGwihLfOYU",
+    dateEnd: "15-May-2022",
+    companyLogo: "https://i.ibb.co/sF4xsbm/logokitafix.png",
     work: "Merancang dan Mengembangkan Sistem Web/App, Menerjemahkan Kebutuhan bisnis kedalam desain app/web.",
   },
   {

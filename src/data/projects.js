@@ -38,4 +38,21 @@ export const ProjectData = [
 
     image: "https://i.ibb.co/c186MCy/COVINDO-SS.png",
   },
+
+  {
+    id: 3,
+    title: "Tutor Kita",
+    about:
+      "About this project soon ...",
+    demoAkun:
+      "-",
+    tags: ["Restful API", "Flutter", "Material Design"],
+
+    demo: "-",
+
+    github:
+      "-",
+
+    image: "https://i.ibb.co/sF4xsbm/logokitafix.png",
+  },
 ];

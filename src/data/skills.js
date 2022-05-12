@@ -61,7 +61,7 @@ export const SkillsData = [
       {
         name: "Flutter",
         icon: <i class="devicon-flutter-plain colored"></i>,
-        level: "Intermediate",
+        level: "Intermediate to Expert",
       },
       {
         name: "React Native",

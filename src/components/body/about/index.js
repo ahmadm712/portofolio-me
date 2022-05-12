@@ -9,11 +9,11 @@ function About() {
           Hello There 👋, I am <br />
           <span className="info-name">Ahmad Muji</span>.
           <br />
-          Commonly called Ahmad, I am a 5th semester collage student of
-          Informatics Engineering with a Concentration in Creative Information
-          Development, my hobby is sports & playing games, Has Good enough
-          Programming Skills and Interest in Web Development and Mobile
-          Development
+          Commonly called Ahmad, I am an Undergraduate student in Informatics
+          Engineering with a concentration on Creative Information Development
+          (CID). My hobbies are sports & playing games, Have good programming
+          skills and have an interest in Web Development and Mobile Development,
+          especially flutter.
           <SocialContact />
         </div>
 
