@@ -41,11 +41,11 @@ export const ProjectData = [
 
   {
     id: 3,
-    title: "Tutor Kita",
+    title: "Tutorkita",
     about:
       "About this project soon ...",
     demoAkun:
-      "-",
+      "",
     tags: ["Restful API", "Flutter", "Material Design"],
 
     demo: "-",
@@ -53,6 +53,6 @@ export const ProjectData = [
     github:
       "-",
 
-    image: "https://i.ibb.co/sF4xsbm/logokitafix.png",
+    image: "",
   },
 ];
