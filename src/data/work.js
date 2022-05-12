@@ -1,7 +1,7 @@
 export const WorkData = [
   {
     company: "PT Cipta lestari Esatama",
-    designation: "Junior Software Engineer (Magang)",
+    designation: "Software Engineer (Magang)",
     dateJoining: "09-Nov-2021",
     dateEnd: "15-May-2022",
     companyLogo: "https://i.ibb.co/sF4xsbm/logokitafix.png",
