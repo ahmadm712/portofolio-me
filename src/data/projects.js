@@ -43,16 +43,16 @@ export const ProjectData = [
     id: 3,
     title: "Tutorkita",
     about:
-      "About this project soon ...",
+      "Book a study session with our qualified and experienced tutors with Tutorkita Live Courses. Pick a tutor from more than 500 of our excellent tutors who are experts in their fields. Choose your own learning environment to ensure the best learning outcome. Consult your tutor at any time to ask questions about your lessons. Gain unlimited access to your session recordings, exclusive exam exercises, and discussion forums for group sessions.With Tutorkita Video Courses, you can have unlimited access to learning videos, materials, and exercises designed by qualified instructors of your choice at an affordable price. You can also have access to online forums where you can discuss your lessons and get exclusive exercises to prepare yourself for your exam.Consult our Tutor whenever you need help with your college assignment. You will be guided by an intelligent chatbot that will help you before we redirect you to an available expert of your choice. You can get a complete explanation from a reliable source, which means no more looking up for unreliable answers on the Internet. Practice your understanding using our reliable and complete Question Banks",
     demoAkun:
       "",
-    tags: ["Restful API", "Flutter", "Material Design"],
+    tags: ["Restful API", "Flutter", "Material Design","Back End Integration"],
 
-    demo: "-",
+    demo: "https://play.google.com/store/apps/details?id=com.elc_edu.tutorkita&hl=in&gl=US",
 
     github:
       "-",
 
-    image: "",
+    image: "https://i.ibb.co/PrqBGYc/tutorkita.jpg",
   },
 ];
