@@ -1,5 +1,13 @@
 export const WorkData = [
   {
+    company: "PT Roketin Kreatif Teknologi",
+    designation: "Flutter Developer",
+    dateJoining: "15-May-2022",
+    dateEnd: "15-Aug-2022",
+    companyLogo: "https://i.ibb.co/PZ6D312/roketin.png",
+    work: "Merancang dan membangun aplikasi seluler untuk platform Android dan iOS, Berkolaborasi dengan tim desain untuk menentukan fitur aplikasi, Memastikan kualitas dan kinerja aplikasi sesuai spesifikasi ,Mengidentifikasi potensi masalah dan menyelesaikan kemacetan aplikasi, Menerbitkan aplikasi di Play Store dan App Store, Merancang dan mengimplementasikan pembaruan aplikasi, Menulis clean code",
+  },
+  {
     company: "PT Cipta lestari Esatama",
     designation: "Software Engineer (Magang)",
     dateJoining: "09-Nov-2021",
