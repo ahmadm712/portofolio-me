@@ -55,4 +55,20 @@ export const ProjectData = [
 
     image: "https://i.ibb.co/PrqBGYc/tutorkita.jpg",
   },
+  {
+    id: 4,
+    title: "Pajakin",
+    about:
+      "Taxes are obligations governed by legislation whose results are used for public purposes. However, in general, MSME owners do not know information about taxes. PajakIn is a financial application to help MSME owners to calculate the MSME tax that must be paid. PajakIn will provide education about taxes to users by providing news about the economy to users. ",
+    demoAkun:
+      "",
+    tags: ["Firebase", "Flutter", "Material Design","CI CD"],
+
+    demo: "https://www.amazon.com/dp/B0B5LZ142V/ref=apps_sf_sta",
+
+    github:
+      "-",
+
+    image: "https://i.ibb.co/3Bt5GNQ/Whats-App-Image-2022-07-09-at-13-03-17.jpg",
+  },
 ];
