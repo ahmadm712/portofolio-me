@@ -9,11 +9,12 @@ function About() {
           Hello There 👋, I am <br />
           <span className="info-name">Ahmad Muji</span>.
           <br />
-          Commonly called Ahmad, I am an Undergraduate student in Informatics
-          Engineering with a concentration on Creative Information Development
-          (CID). My hobbies are sports & playing games, Have good programming
-          skills and have an interest in Web Development and Mobile Development,
-          especially flutter.
+          Commonly called Ahmad, I'm Mobile Application Developer with around 1
+          years experience in software development lifecycle (SDLC) including
+          analysis, design, development, and testing. Experience in Mobile
+          Application Framework Flutter ,Skilled, motivated and product-oriented
+          mobile application developer with strong Object Oriented Programming
+          Concepts and design skills.
           <SocialContact />
         </div>
 
