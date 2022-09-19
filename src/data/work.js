@@ -1,5 +1,15 @@
 export const WorkData = [
   {
+    company: "PT Airmas Perkasa",
+    designation: "Mobile Developer",
+    dateJoining: "18-Aug-2022",
+    dateEnd: "now",
+    companyLogo:
+      "https://hrd.airmasgroup.co.id/assets/img/logo/hrd.airmasgroup.co.id/logoairmas.jpg",
+    work: "Participate in the entire application lifecycle, focusing on coding and debugging, Write clean code to develop functional mobile applications Troubleshoot and debug applications, Perform Ul tests to optimize performance, Manage cutting-edge technologies to improve legacy applications, Collaborate with UI/UX and Backend developers to integrateuser-facing elements with server side logic,Gather and address technical and design requirements,Build reusable code and libraries for future use,Liaise with developers, designers and system administrators to identify new features",
+  },
+  ,
+  {
     company: "PT Roketin Kreatif Teknologi",
     designation: "Flutter Developer",
     dateJoining: "15-May-2022",
@@ -15,22 +25,4 @@ export const WorkData = [
     companyLogo: "https://i.ibb.co/sF4xsbm/logokitafix.png",
     work: "Merancang dan Mengembangkan Sistem Web/App, Menerjemahkan Kebutuhan bisnis kedalam desain app/web.",
   },
-  {
-    company: "Skilvul",
-    designation: "Study Independent (Kampus Merdeka)",
-    dateJoining: "28-Aug-2021",
-    dateEnd: "01-Jan-2022",
-    companyLogo: "https://skilvul.com/static/skilvul.svg",
-    work: "Program inkubasi digital 5 bulan di mana tim siswa akan diberi tantangan untuk membantu mitra tantangan untuk memecahkan masalah sosial dan lingkungan di Indonesia dan kawasan ASEAN. Siswa akan dilengkapi dengan keterampilan Pemrograman siap kerja dan keterampilan pengembangan produk untuk berinovasi dan membangun solusi digital. ",
-  },
-
-  {
-    company: "Sagita Computer",
-    designation: "PKL",
-    dateJoining: "01-Jan-2018",
-    dateEnd: "30-March-2018",
-    companyLogo: "https://i.ibb.co/4sPp8R7/sagita.jpg",
-    work: "Membantu pengecekan Perangkat Komputer  mulai dari Monitor, CPU,hingga Printer Yang bermasalah, Membantu Menyelesaikan Pekerjaan Teknisi.",
-  },
-  
 ];
